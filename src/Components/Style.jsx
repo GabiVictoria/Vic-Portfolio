@@ -48,10 +48,12 @@ font-size: 2.2rem
 
 export const Home = styled.main`
 display: flex;
-justify-content: space-evenly;
+justify-content: space-between;
 align-items: center;
 height: 80vh;
-
+background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20231014/pngtree-background-with-a-texture-of-light-blue-cardboard-image_13660944.png");
+background-repeat: no-repeat;
+background-size:100% 100%;
 
 
 @media(min-width: 320px) and (max-width: 768px){
@@ -69,20 +71,23 @@ height: 80vh;
 }
 `
 export const Perfil = styled.section`
-display: flex
-flex-direction: column;
-align-items: center;
-width: 30vw;
-`
-export const Apresentacao = styled.section`
+display: flex;
 width: 40vw;
+height: 80vh;
+align-items: center; 
+justify-content: center; 
+flex-direction: column;
+img{
+    height: 80%;
+}
 `
 
 export const RedesSociais = styled.div`
-width: 30vw;
+width: 12vw;
+margin-top: 2vh;
 display: flex;
 justify-content: space-evenly;
-
+align-items: center;
 img{
     width: 3vw;
 }
@@ -97,7 +102,15 @@ img{
 }
 
 `
-
+export const Apresentacao = styled.section`
+width: 60vw;
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+p{width: 80%;
+}
+`
 //---estilização do componente sobre
 
 export const Sobre = styled.main`
