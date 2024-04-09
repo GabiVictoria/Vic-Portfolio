@@ -51,9 +51,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 height: 80vh;
-background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20231014/pngtree-background-with-a-texture-of-light-blue-cardboard-image_13660944.png");
-background-repeat: no-repeat;
-background-size:100% 100%;
+background-color: rgba(69, 175, 214, 0.8);
 
 
 @media(min-width: 320px) and (max-width: 768px){
@@ -147,4 +145,51 @@ img{
 }
 
 
+`
+// estilização do component projetos
+export const Projetos = styled.main`
+background-color: rgba(69, 175, 214, 0.8);
+height: 80vh;
+`
+export const card = styled.section`
+    width: 300px;
+    height: 200px;
+    background-color: rgba(194, 11, 36, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border: radius;
+
+  .cardHeading {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #C6FDE7;
+  }
+  
+  .cardDescription {
+    font-size: 0.9em;
+    color: #C6FDE7;
+  }
+  
+  .cardDescription a {
+    color: #C20B24;
+  }
+  
+  .acceptButton {
+    padding: 11px 20px;
+    background-color: #7b57ff;
+    transition-duration: .2s;
+    border: none;
+    color: rgb(241, 241, 241);
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .acceptButton:hover {
+    background-color: #714aff;
+    transition-duration: .2s;
+  }
 `
