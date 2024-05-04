@@ -51,8 +51,8 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 height: 80vh;
-background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20231014/pngtree-background-with-a-texture-of-light-blue-cardboard-image_13660944.png");
-background-repeat: no-repeat;
+background: rgb(164,224,200);
+background: linear-gradient(135deg, rgba(164,224,200,1) 1%, rgba(105,157,139,1) 6%, rgba(39,81,71,1) 18%, rgba(24,65,56,1) 24%, rgba(4,43,36,0.9613095238095238) 34%, rgba(19,37,38,0.9781162464985994) 66%, rgba(75,13,48,0.9220938375350141) 85%, rgba(194,11,36,0.8772759103641457) 100%);
 background-size:100% 100%;
 
 
@@ -74,10 +74,12 @@ export const Perfil = styled.section`
 display: flex;
 width: 40vw;
 height: 80vh;
+color: #C6FDE7;
 align-items: center; 
 justify-content: center; 
 flex-direction: column;
 img{
+
     height: 80%;
 }
 `
@@ -105,10 +107,11 @@ img{
 export const Apresentacao = styled.section`
 width: 60vw;
 height: 80vh;
+color: #C6FDE7;
 display: flex;
 justify-content: center;
 align-items: center;
-p{width: 80%;
+h1{width: 80%;
 }
 `
 //---estilização do componente sobre
