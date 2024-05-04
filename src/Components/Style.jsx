@@ -51,9 +51,13 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 height: 80vh;
+<<<<<<< HEAD
 background: rgb(164,224,200);
 background: linear-gradient(135deg, rgba(164,224,200,1) 1%, rgba(105,157,139,1) 6%, rgba(39,81,71,1) 18%, rgba(24,65,56,1) 24%, rgba(4,43,36,0.9613095238095238) 34%, rgba(19,37,38,0.9781162464985994) 66%, rgba(75,13,48,0.9220938375350141) 85%, rgba(194,11,36,0.8772759103641457) 100%);
 background-size:100% 100%;
+=======
+background-color: rgba(69, 175, 214, 0.8);
+>>>>>>> 0e10a98f3bc34f2e2d6cf084a5309e3060310063
 
 
 @media(min-width: 320px) and (max-width: 768px){
@@ -150,4 +154,51 @@ img{
 }
 
 
+`
+// estilização do component projetos
+export const Projetos = styled.main`
+background-color: rgba(69, 175, 214, 0.8);
+height: 80vh;
+`
+export const card = styled.section`
+    width: 300px;
+    height: 200px;
+    background-color: rgba(194, 11, 36, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border: radius;
+
+  .cardHeading {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #C6FDE7;
+  }
+  
+  .cardDescription {
+    font-size: 0.9em;
+    color: #C6FDE7;
+  }
+  
+  .cardDescription a {
+    color: #C20B24;
+  }
+  
+  .acceptButton {
+    padding: 11px 20px;
+    background-color: #7b57ff;
+    transition-duration: .2s;
+    border: none;
+    color: rgb(241, 241, 241);
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .acceptButton:hover {
+    background-color: #714aff;
+    transition-duration: .2s;
+  }
 `
