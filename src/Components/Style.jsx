@@ -33,17 +33,6 @@ font-weight: 800;
 font-size: 2.2rem
 }
 
-@media(min-width: 320px) and (max-width: 768px){
-    display: flex;
-    flex-direction: column;
-    height: 50vh;
-    a:hover{
-        font-size: 2.5rem;
-        color: purple;
-    }
-
-}
-
 `
 
 //---estilização do componente inicio
