@@ -15,8 +15,8 @@ function Home() {
         <img src={Avatar} alt="" />
           <h3>Gabrielle Victória</h3>
        <S.RedesSociais>
-        <img src={Github} alt="" />
-        <img src={Linkedin} alt="" />
+        <a href="https://github.com/GabiVictoria" target="_blank"><img src={Github} alt="" /></a>
+        <a href="https://www.linkedin.com/in/gabrielle-vict%C3%B3ria-ribeiro-batista-88a34028a/" target="blank"><img src={Linkedin} alt="" /></a>
         <img src={Gmail} alt="" />
        </S.RedesSociais>
         </S.Perfil> 

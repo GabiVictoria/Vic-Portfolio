@@ -1,10 +1,12 @@
 import styled from "styled-components"
-
+import backgroundSobre from "../assets/contelacao.png";
+import Space from "../assets/space-img.png"
 export const Navegacao = styled.nav`
     display: flex;
     align-items: center;
     background-color: #C6FDE7;
     font-family: "Sevillana", cursive;
+
     img{
         height: 20vh;
     }
@@ -48,6 +50,7 @@ font-size: 2.2rem
 
 export const Home = styled.main`
 display: flex;
+
 justify-content: space-between;
 align-items: center;
 height: 80vh;
@@ -117,40 +120,37 @@ h1{width: 80%;
 //---estilização do componente sobre
 
 export const Sobre = styled.main`
-    display: flex;
-    justify-content: space-evenly;
+    
+`
+export const Introducao = styled.section`
+height: 80vh;
+// width: 100%
+background-image: url(${Space});
+background-repeat: no-repeat;
+background-size: 100vw 80vh;
+p{
+    width: 45vw;
+    color: #8DF7E5;
+    font-size: 2em;
+    font-weight: 600;
+    position : relative;
+    top: 30vh;
+    left: 2.5vw;
+}
 `
 
 export const Estudos = styled.section`
-border: solid red;
-    display: flex;
-     flex-direction: column; 
-    align-items: center;
-    justify-content: space-evenly;
-    height: 50vh;
-    width: 30vw;
-`
-
-export const Habilidades = styled.section`
-border: solid; 
-height: 50vh;
-width: 30vw;
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-align-items: center;
-
-div{
-    display: flex;
-    align-items: center;
-}
-
-img{
-    height: 7vh;
-}
-
+height: 100vh;
+background-image: url(${backgroundSobre});
+background-repeat: no-repeat;
+background-size: cover;
 
 `
+
+export const Hobbies = styled.section`
+
+`
+
 // estilização do component projetos
 // altura cardimg =90px largura=250px
 export const Projetos = styled.main`
