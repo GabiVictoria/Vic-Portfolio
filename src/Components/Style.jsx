@@ -1,6 +1,6 @@
 import styled from "styled-components"
-import backgroundSobre from "../assets/contelacao.png";
-import Space from "../assets/space-img.png"
+import space from "../assets/constelacao.png";
+
 export const Navegacao = styled.nav`
     display: flex;
     align-items: center;
@@ -109,33 +109,77 @@ h1{width: 80%;
 //---estilização do componente sobre
 
 export const Sobre = styled.main`
-    
+background-image: url(${space});
+background-attachment: fixed;
+background-size: contain;
+background-position: center;
 `
 export const Introducao = styled.section`
-height: 80vh;
-// width: 100%
-background-image: url(${Space});
-background-repeat: no-repeat;
-background-size: 100vw 80vh;
+height: 70vh;
+
 p{
     width: 45vw;
     color: #8DF7E5;
     font-size: 2em;
     font-weight: 600;
     position : relative;
-    top: 30vh;
+    top: 25vh;
     left: 2.5vw;
 }
 `
 
 export const Estudos = styled.section`
-height: 100vh;
-background-image: url(${backgroundSobre});
-background-repeat: no-repeat;
-background-size: cover;
-
+color: #C20B24;
+h2{
+  margin: 3vw;
+  margin-left: 40vw;
+  font-size: 3em;
+  font-weight: 600;
+}
+  
 `
+export const Habilidades = styled.section`
+display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+`
+export const Hcard = styled.section`
 
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
+  border-radius: 20px;
+  text-align: center;
+  transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+  
+.package:hover {
+  box-shadow: 0px 0px 30px 1px rgba(204, 0, 255, 0.3);
+}
+
+.package2 {
+  width: 200px;
+  height: 200px;
+  background-color: #000000;
+  border-radius: 10px;
+  transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.package2:hover {
+  transform: scale(0.98);
+  border-radius: 25px;
+}
+
+.text {
+  color: #76ABB0;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+`
 export const Hobbies = styled.section`
 
 `

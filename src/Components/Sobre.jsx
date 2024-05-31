@@ -11,7 +11,28 @@ function Sobre() {
       </S.Introducao>
 
       <S.Estudos>
-        
+      <h2>Habilidades</h2>
+        <S.Habilidades>
+        <S.Hcard class="package">
+          <div class="package2"><p class="text">JAVA</p></div>
+        </S.Hcard>
+        <S.Hcard class="package">
+          <div class="package2"><p class="text">C</p></div>
+        </S.Hcard>
+        <S.Hcard class="package">
+          <div class="package2"><p class="text">PYTHON</p></div>
+        </S.Hcard>
+        <S.Hcard class="package">
+          <div class="package2"><p class="text">JavaScript</p></div>
+        </S.Hcard>
+        <S.Hcard class="package">
+          <div class="package2"><p class="text">HTML</p></div>
+        </S.Hcard>
+        <S.Hcard class="package">
+          <div class="package2"><p class="text">REACT</p></div>
+        </S.Hcard>
+
+        </S.Habilidades>
       </S.Estudos>
 
       <S.Hobbies>

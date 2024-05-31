@@ -17,10 +17,10 @@ function Home() {
        <S.RedesSociais>
         <a href="https://github.com/GabiVictoria" target="_blank"><img src={Github} alt="" /></a>
         <a href="https://www.linkedin.com/in/gabrielle-vict%C3%B3ria-ribeiro-batista-88a34028a/" target="blank"><img src={Linkedin} alt="" /></a>
-        <img src={Gmail} alt="" />
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gabrielebatista2810@gmail.com" title="gabrielebatista2810@gmail.com" target="_blank"><img src={Gmail} alt="" /></a>
        </S.RedesSociais>
         </S.Perfil> 
-      
+        
        <S.Apresentacao className="bg-[#080713] flex justify-center items-center h-screen w-full text-2xl">
 {/* funcao de https://github.com/Marlliton/cod3r-projects/blob/main/projetos-de-artigos/maquina-de-escrever/src/pages/index.jsx*/}
         <h1 className="font-bold">
